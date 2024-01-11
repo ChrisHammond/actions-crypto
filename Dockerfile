@@ -1,4 +1,4 @@
-FROM alpine:3.18.3
+FROM alpine
 
 RUN apk add --no-cache openssl bash && \
   rm -rf /var/cache/apk/*
